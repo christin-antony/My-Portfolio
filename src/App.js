@@ -18,6 +18,7 @@ function App() {
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<Page1/>} />
+        <Route path="/My-Portfolio" element={<Page1/>} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/navbar" element={<Navbar />} />
         <Route path="/header" element={<Header />} />
