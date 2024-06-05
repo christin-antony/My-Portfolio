@@ -66,6 +66,7 @@ const Page1 = () => {
       <section id="resume">
         <Resume  education={education} experience={experience} skills={skills} />
       </section>
+      
       <section id="skills">
         <Skills skills={skills} />
       </section>

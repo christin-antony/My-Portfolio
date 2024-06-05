@@ -57,8 +57,9 @@ const Navbar = () => {
           <a href="#home" className={activeSection === "home" ? "active" : ""}>Home</a>
           <a href="#about" className={activeSection === "about" ? "active" : ""}>About</a>
           <a href="#portfolio" className={activeSection === "portfolio" ? "active" : ""}>Portfolio</a>
-        
+         
           <a href="#resume" className={activeSection === "resume" ? "active" : ""}>Resume</a>
+          {/* <a href="#skills" className={activeSection === "skills" ? "active" : ""}>Skills</a> */}
           <a href="#contact" className={activeSection === "contact" ? "active" : ""}>Contact</a> 
         </div>
         <div className="nav-buttons-group">
