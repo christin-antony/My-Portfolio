@@ -20,7 +20,7 @@ const Contact = () => {
             <textarea className="in2" placeholder="Write a Message"></textarea>
             <button className="btn1">Send</button>
           </div>
-          <div>
+          <div className="div99">
             <p className="p99">My Contact Details</p>
 
             <div className="Co-div">

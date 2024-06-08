@@ -48,7 +48,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div >
+    <div className="nav">
       <div className={`navbar-container ${scroll ? "scroll-background" : ""}`}>
         <div className="log-container">
           <DiYeoman />

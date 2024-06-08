@@ -64,7 +64,7 @@ const Portfolio = ({ portfolio }) => {
         >
           {portfolio.map((data, index) => (
             <SwiperSlide key={index}>
-              <Card style={{ width: "1000px", backgroundColor: "white" }}>
+              <Card className="divswip">
                 <Card.Img variant="top" src={data.image} className="img-card" />
                 <Card.Body className="card-body">
                   <Card.Title className="card-text">{data.title}</Card.Title>
