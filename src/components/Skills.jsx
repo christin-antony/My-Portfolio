@@ -62,7 +62,7 @@ const Skills = ({ skills }) => {
         <h1 className="t_h">Technical Skill</h1>
         <div className="T_C" >
           {skills.map((data, index) => (
-            <div className="card-s" key={index}> <p className="logo">{data.logo}</p>
+            <div className="card-s" key={index}><img className="logo-image" src={data.imageskill} alt="logo" />
               <p> {data.skill}</p>
 
             </div>

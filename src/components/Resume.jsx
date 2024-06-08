@@ -26,7 +26,7 @@ const Resume = ({ experience, education }) => {
               duration: 1,
               ease: "power4.out",
               stagger: 0.2,
-              repeat: -1,
+              // repeat: -1,
               yoyo: true,
             }
           );
@@ -40,7 +40,7 @@ const Resume = ({ experience, education }) => {
               duration: 1,
               ease: "power4.out",
               stagger: 0.2,
-              repeat: -1,
+              // repeat: -1,
               yoyo: true,
             }
           );

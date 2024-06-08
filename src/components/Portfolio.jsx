@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Link } from "react-router-dom";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
@@ -69,7 +70,9 @@ const Portfolio = ({ portfolio }) => {
                 <Card.Body className="card-body">
                   <Card.Title className="card-text">{data.title}</Card.Title>
                   <Card.Text className="card-p">{data.text}</Card.Text>
-                  <button className="btn btn__primary" style={{ marginTop: "70px" }}>Open</button>
+                  <button className="btn btn__primary" style={{ marginTop: "70px" }}> <Link to={data.link}>
+                 Open
+                </Link></button>
                 </Card.Body>
               </Card>
             </SwiperSlide>
