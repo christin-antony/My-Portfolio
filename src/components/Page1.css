@@ -288,11 +288,6 @@
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 }
 
-.btn1:hover {
-  width: 460px;
-  height: 75px;
-}
-
 .port {
   background-color: #cda4e7;
   height: 600px;
@@ -398,6 +393,15 @@
   justify-content: center;
   gap: 20px;
 }
+.T_P{
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  place-items: center;
+  justify-content: center;
+  gap: 20px;
+
+
+}
 
 .card-s {
   width: 250px;
@@ -413,6 +417,30 @@
   place-items: center;
   align-items: center;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.9);
+}
+.card-p {
+ width: auto;
+  height:auto;
+  border-radius: 20px;
+  background-color: white;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 15px;
+  padding: 0;
+  display: grid;
+  place-items: center;
+  align-items: center;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.9);
+  margin-bottom: 30px;
+}
+.logo-image-p{
+  width: 90%;
+  height:250px;
+  padding-top: 10px;
+  object-fit: cover !important;
+  border-radius: 10px;
+
 }
 
 .logo {
@@ -455,17 +483,18 @@
 }
 
 .card-text {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
   margin-bottom: 20px;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .card-p {
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 400;
 text-align: center;
   margin: auto;
+  padding: 15px;
 }
 
 .divskill {
@@ -545,6 +574,13 @@ text-align: center;
   .nav{
     display: none;
   }
+  .T_P{
+   
+    grid-template-columns: repeat(1, 50%);
+   
+  
+  
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -564,6 +600,7 @@ text-align: center;
     font-size: 20px;
 
   }
+ 
   
 }
 @media screen and (max-width: 900px) {
@@ -665,6 +702,11 @@ text-align: center;
     font-size: 13px;
 
   }
+
+   
+  
+  
+  
 }
 @media screen and (max-width: 500px) {
   .p2{

@@ -16,7 +16,7 @@ const About = () => {
       <div className="div6">
         <p className="p6">About Me</p>
         <div className="div66">
-          <div data-aos="zoom-in" className="div7">
+          <div data-aos="zoom-out-up" className="div7">
             <p className="p7">
               Highly skilled MERN stack developer with a strong background in
               building robust and scalable web applications. Proficient in
