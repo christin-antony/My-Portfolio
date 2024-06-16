@@ -16,7 +16,7 @@ const Skills = ({ skills }) => {
   return (
     <div >
       <div className="divskill">
-        <h1 className="t_h">Technical Skill</h1>
+        <h1 className="t_h1">Technical Skill</h1>
         <div className="T_C" >
           {skills.map((data, index) => (
             <div data-aos="zoom-in-up" className="card-s" key={index}><img className="logo-image" src={data.imageskill} alt="logo" />

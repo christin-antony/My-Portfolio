@@ -61,7 +61,11 @@ const Contact = () => {
             </div>
           </div>
         </div>
+        
       </div>
+      <div style={{height:"20px",backgroundColor:"black"}}>
+
+        </div>
     </div>
   );
 };
