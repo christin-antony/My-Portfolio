@@ -80,8 +80,12 @@ const Page1 = () => {
         <About />
       </section>
 
-
       <section id="portfolio">
+      <div style={{height:".1px"}}></div>
+      </section>
+
+
+      <section >
         <Portfolio portfolio={portfolio} />
       </section>
      

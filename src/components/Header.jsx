@@ -11,7 +11,7 @@ const Header = () => {
         if (entry.isIntersecting) {
           const letters = p2Ref.current.querySelectorAll('span');
           gsap.fromTo(letters, 
-            { opacity: 0, y: -100 }, 
+            { opacity: 0, y: -360 }, 
             { opacity: 1, y: -10, duration: 1, ease: 'back.out(1.7)', stagger: 0.1 }
           );
           observer.disconnect(); // Stop observing once animation is triggered

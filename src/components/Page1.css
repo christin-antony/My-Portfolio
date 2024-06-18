@@ -97,6 +97,7 @@
   font-size: 50px;
   margin: 0;
   padding: 30px;
+  padding-top: 60px;
   font-weight: bold;
 }
 
@@ -166,6 +167,7 @@
   padding: 30px;
   font-weight: bold;
   padding-bottom: 50px;
+  padding-top: 60px;
   color: #4b018c;
 }
 
@@ -203,6 +205,7 @@
   font-size: 50px;
   margin: 0%;
   padding: 30px;
+  padding-top: 60px;
   font-weight: bold;
   padding-bottom: 50px;
   color: #4b018c;
