@@ -12,12 +12,12 @@ const Header = () => {
           const letters = p2Ref.current.querySelectorAll('span');
           gsap.fromTo(letters, 
             { opacity: 0, y: 0 }, 
-            { opacity: 1, y: -10, duration: 1, ease: 'back.out(1.7)', stagger: 0.1 }
+            { opacity: 1, y: -1, duration: 1, ease: 'back.out(1.7)', stagger: 0.1 }
           );
-          observer.disconnect(); // Stop observing once animation is triggered
+          observer.disconnect(); 
         }
       });
-    }, { threshold: 0.5 }); // Trigger when at least 50% of the element is visible
+    }, { threshold: 0.5 });
 
     observer.observe(p2Ref.current);
 
