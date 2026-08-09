@@ -18,21 +18,17 @@ const About = () => {
         <div className="div66">
           <div data-aos="zoom-out-up" className="div7">
             <p className="p7">
-              Highly skilled MERN stack developer with a strong background in
-              building robust and scalable web applications. Proficient in
-              JavaScript, React.js, Node.js, and MongoDB. Experienced in
-              developing intuitive user interfaces, integrating APIs. A problem
-              solver with a strong commitment to delivering high-quality
-              software solutions. Committed to staying up-to-date with the
-              latest technologies and trends in web development. Seeking a
-              challenging role to contribute my expertise in frontend and
-              backend development to create innovative and impactful web
-              applications. Highly skilled MERN stack developer with a strong
-              background in building robust and scalable web applications.
-              Committed to staying up-to-date with the latest technologies and
-              trends in web development. Seeking a challenging role to
-              contribute my expertise in frontend and backend development to
-              create innovative and impactful web applications.
+              Full-stack Software Developer specializing in ERP and accounting
+              systems, with a track record of building scalable, real-world
+              business solutions using the MERN stack and NestJS/PostgreSQL.
+              Currently at Reon Technologies, building Accounts, Sales, CRM,
+              HRM and User Management modules for ERP platforms serving
+              clients in the UAE and India, with end-to-end ownership from
+              planning to delivery. Proficient in JavaScript, React.js,
+              Node.js, MongoDB, NestJS and PostgreSQL, with hands-on
+              experience integrating APIs and building intuitive, reliable
+              user interfaces. Committed to writing clean, maintainable code
+              and staying current with modern web development practices.
             </p>
           </div>
         </div>

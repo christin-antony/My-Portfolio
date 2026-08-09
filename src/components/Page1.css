@@ -118,7 +118,8 @@
 
 .div5, .div55 {
   width: 500px;
-  height: 150px;
+  min-height: 150px;
+  height: auto;
   border-radius: 15px;
   background-color: white;
   margin-bottom: 30px;
@@ -128,9 +129,47 @@
   color: #4b018c;
   font-size: 15px;
   transform-origin: center;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 20px;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7);
+}
+
+.div55.resume-exp {
+  min-height: 220px;
+}
+
+.resume-content {
+  width: 100%;
+  text-align: left;
+}
+
+.resume-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 4px;
+  color: #4b018c;
+}
+
+.resume-sub {
+  font-size: 13px;
+  font-weight: 500;
+  opacity: 0.75;
+  margin-bottom: 4px;
+}
+
+.resume-date {
+  font-size: 13px;
+  opacity: 0.75;
+}
+
+.resume-points {
+  margin: 10px 0 0;
+  padding-left: 18px;
+}
+
+.resume-points li {
+  font-size: 13px;
+  line-height: 1.6;
+  margin-bottom: 6px;
 }
 
 .div5:hover, .div55:hover {
@@ -446,6 +485,40 @@
 
 }
 
+.placeholder-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background: linear-gradient(135deg, #4b018c, #cda4e7);
+}
+
+.card-company {
+  font-size: 13px;
+  font-weight: 500;
+  color: #8500fa;
+  margin-top: -6px;
+  margin-bottom: 6px;
+}
+
+.confidential-badge {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  background-color: #f1e6fb;
+  color: #4b018c;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.skill-icon {
+  font-size: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .logo {
   font-size: 70px;
 }
@@ -513,7 +586,8 @@ text-align: center;
   background-position: center;
   background-repeat: repeat;
   padding-top: 30px;
-  height: 1400px;
+  padding-bottom: 60px;
+  height: auto;
 }
 .divswip{
   background-color: white;

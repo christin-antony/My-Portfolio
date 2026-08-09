@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom"; // Import Link from react-router-dom
 import "./Page1.css";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -26,37 +25,43 @@ const Contact = () => {
             <div className="Co-div">
               <p className="p12"><IoMdMail /></p>
 
-              {/* Replace <a> with <Link> */}
               <p className="p11">
-                <Link to="mailto:christin10antony@gmail.com">
+                <a href="mailto:christin10antony@gmail.com">
                   christin10antony@gmail.com
-                </Link>
+                </a>
               </p>
             </div>
             <div className="Co-div">
               <p className="p12"><FaSquarePhone /></p>
 
-              <p className="p11">8593899533</p>
+              <p className="p11">
+                <a href="tel:+918593899533">8593899533</a>
+              </p>
             </div>
             <div className="Co-div">
               <p className="p12"> <FaLinkedin /> </p>
 
-              {/* Replace <a> with <Link> */}
               <p className="p11">
-                <Link to="https://linkedin.com/in/christin-antony">
+                <a
+                  href="https://linkedin.com/in/christin-antony"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   www.linkedin.com/in/christin-antony
-                </Link>
+                </a>
               </p>
             </div>
             <div className="Co-div">
               <p className="p12"><FaGithub /></p>
 
-              {/* Replace <a> with <Link> */}
               <p className="p11">
-                <Link to="https://github.com/christin-antony">
-                www.github.com/christin-antony 
-                
-                </Link>
+                <a
+                  href="https://github.com/christin-antony"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  www.github.com/christin-antony
+                </a>
               </p>
             </div>
           </div>

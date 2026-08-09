@@ -4,7 +4,6 @@ import "aos/dist/aos.css";
 import "./Page1.css";
 
 const Skills = ({ skills }) => {
-
   useEffect(() => {
     AOS.init({
       duration: 1000, // Animation duration
@@ -12,23 +11,23 @@ const Skills = ({ skills }) => {
     });
   }, []);
 
-
   return (
-    <div >
+    <div>
       <div className="divskill">
-        <h1 className="t_h1">Technical Skill</h1>
-        <div className="T_C" >
+        <h1 className="t_h1">Technical Skills</h1>
+        <div className="T_C">
           {skills.map((data, index) => (
-            <div data-aos="zoom-in-up" className="card-s" key={index}><img className="logo-image" src={data.imageskill} alt="logo" />
-              <p> {data.skill}</p>
-
+            <div data-aos="zoom-in-up" className="card-s" key={index}>
+              <span className="skill-icon" style={{ color: data.color }}>
+                {data.icon}
+              </span>
+              <p>{data.skill}</p>
             </div>
           ))}
         </div>
       </div>
     </div>
+  );
+};
 
-  )
-}
-
-export default Skills
+export default Skills;
